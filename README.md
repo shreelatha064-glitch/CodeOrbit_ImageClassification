@@ -24,24 +24,15 @@ The model takes an image as input and provides the **top 5 predicted classes alo
 * Pillow
 * ImageNet
 
-## Project Structure
-
-```text
-CodeOrbit_ImageClassification/
-│
-├── image_classification.py
-└── README.md
-```
-
 ## Installation
 
 Make sure Python is installed on your system.
 
 Install the required libraries using:
 
-```bash
+bash
 pip install tensorflow pillow numpy
-```
+
 
 ##  How to Run
 
@@ -49,17 +40,15 @@ pip install tensorflow pillow numpy
 2. Open the terminal.
 3. Run the following command:
 
-```bash
+bash
 python image_classification.py
-```
+
 
 4. Enter the complete path of the image when prompted.
 
 Example:
-
-```text
 F:\3194556-puppy-1903313.jpg
-```
+
 
 5. The program will display the top 5 predictions and their confidence scores.
 
@@ -71,34 +60,19 @@ MobileNetV2 is a lightweight convolutional neural network designed for efficient
 
 In this project, the model is loaded with pretrained **ImageNet weights**, allowing it to classify images without training a new model from scratch.
 
-```python
+python
 model = MobileNetV2(weights="imagenet")
-```
+
 
 ## Output
 
 The program produces the top 5 predictions for the input image along with their confidence percentages.
 
 Example:
-
-```text
 Image Classification Results
-----------------------------
 1. Labrador Retriever: XX.XX%
 2. Golden Retriever: XX.XX%
 3. ...
-```
-
-## Learning Outcome
-
-Through this project, I gained practical experience in:
-
-* Using pretrained deep learning models
-* Transfer learning
-* Image preprocessing
-* TensorFlow and Keras
-* Computer vision
-* Model inference and prediction
 
 ## Internship Project
 
@@ -106,4 +80,5 @@ This project was completed as part of my **CodeOrbit Internship** in Artificial 
 
 ## GitHub Repository
 
-Repository link will be added after the project is uploaded to GitHub.
+https://github.com/shreelatha064-glitch/CodeOrbit_ImageClassification.git
+
