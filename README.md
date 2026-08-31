@@ -42,13 +42,19 @@ pip install tensorflow pillow numpy
 
 bash
 python image_classification.py
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5eae87f (Update project README)
 
 4. Enter the complete path of the image when prompted.
 
 Example:
 F:\3194556-puppy-1903313.jpg
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5eae87f (Update project README)
 
 5. The program will display the top 5 predictions and their confidence scores.
 
@@ -69,7 +75,13 @@ model = MobileNetV2(weights="imagenet")
 The program produces the top 5 predictions for the input image along with their confidence percentages.
 
 Example:
+<<<<<<< HEAD
 Image Classification Results
+=======
+
+Image Classification Results
+
+>>>>>>> 5eae87f (Update project README)
 1. Labrador Retriever: XX.XX%
 2. Golden Retriever: XX.XX%
 3. ...
@@ -81,4 +93,7 @@ This project was completed as part of my **CodeOrbit Internship** in Artificial 
 ## GitHub Repository
 
 https://github.com/shreelatha064-glitch/CodeOrbit_ImageClassification.git
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5eae87f (Update project README)
