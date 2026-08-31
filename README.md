@@ -76,7 +76,7 @@ Image Classification Results
 
 ## Internship Project
 
-This project was completed as part of my **CodeOrbit Internship** in Artificial Intelligence / Machine Learning.
+This project was completed as part of my **CodeOrbit Internship** in Artificial Intelligence.
 
 ## GitHub Repository
 
